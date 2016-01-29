@@ -1,25 +1,14 @@
-/*Colors
-Dark: #38353A
-Red: #C0364A
-White: #E2DFD9
-Teal: #1A8A80
-Blue-Grey: #788A93
-*/
+
 
 
 
 body {
-    background-color: #38353A;
-    background-image: url(../images/background.jpg);
-    background-repeat: no-repeat;
+    background-color: #f2f2f2;
+    background-image: url(../images/cubes.png);
+    background-repeat: repeat;
     background-attachment: fixed;
     background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-   
-   
+   font-family: Georgia, serif;
 }
 
 
@@ -46,9 +35,9 @@ body {
 .hidden-album {
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #E2DFD9;
+    background-color: #f1c40f;
     background-blend-mode: screen;
-    color: #38353A;
+    color: #2c3e50;
     position: relative;
 }
 
@@ -102,7 +91,7 @@ audio {
 }
 
 #albums-and-details {
-    background-color: #788A93;
+    background-color: #2c3e50;
 }
 
 footer {
@@ -113,7 +102,7 @@ footer {
 
 
 .header-text {
-    color: #E2DFD9;
+    color: #4d4d4d;
 }
 
 
@@ -147,8 +136,8 @@ footer {
 }
 
 #contact {
-    background-color: #C0364A;
-    color: #E2DFD9;
+    background-color: #3498db;
+    color: #bdc3c7;
 }
 
 #testimonials {
@@ -167,27 +156,27 @@ footer {
 
 .line-dark {
     height: 1px;
-    background-color: #38353A;
+    background-color: #2c3e50;
 }
 
 .line-white {
     height: 1px;
-    background-color: #E2DFD9;
+    background-color: #bdc3c7;
 }
 
 .line-red {
     height: 1px;
-    background-color: #C0364A;
+    background-color: #3498db;
 }
 
 .line-teal {
     height: 1px;
-    background-color: #1A8A80;
+    background-color: #2c3e50;
 }
 
 .line-blue {
     height: 2px;
-    background-color: #788A93;
+    background-color: #f1c40f;
 }
 
 .contact {
@@ -287,11 +276,15 @@ ul {
 }
 
 h1, h2, h3 {
-    font-family: Georgia, serif;
+    font-family: Verdana, sans-serif;
 }
 
 #logo {
     height:36px;
-    float:left;
+   margin-left: 12px;
     outline: none;
+}
+
+#album-grid {
+    margin-top: 10px;
 }
