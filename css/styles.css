@@ -10,7 +10,7 @@ Blue-Grey: #788A93
 
 body {
     background-color: #38353A;
-    background-image: url(../images/console.jpg);
+    background-image: url(../images/background.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -233,7 +233,7 @@ footer {
 }
 
 #the-header {
-    background-color: rgba(192, 54, 74, 0.80);
+  
     margin-left: -1000px;
     margin-right: 28.813px;
     position: relative;
@@ -288,4 +288,10 @@ ul {
 
 h1, h2, h3 {
     font-family: Georgia, serif;
+}
+
+#logo {
+    height:36px;
+    float:left;
+    outline: none;
 }
