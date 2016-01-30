@@ -18,48 +18,29 @@ body {
         
     }
     #header-image {
-        background-image: url(../images/console.jpg);
-         background-repeat: no-repeat;
-        background-color: darkgray;
-        
+        background-image: url(../images/cubes.png);
+         background-repeat:repeat ;
+       
+         color: #ecf0f1;
     }
     #more-work {
-        background-image: url(../images/console.jpg);
-         background-repeat: no-repeat;
+        background-image: url(../images/cubes.png);
+         background-repeat: repeat;
         background-color: darkgray;
-       
-        background-size: cover;
+        visibility: hidden;
     }
 }
 
 .hidden-album {
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #f1c40f;
+   background-image: url(../images/cubeswhite.png);
     background-blend-mode: screen;
     color: #2c3e50;
     position: relative;
 }
 
-#album-details-1 {
-    background-image: url(../images/kevin-max.jpeg);
-}
 
-#album-details-2 {
-    background-image: url(../images/aubryn.jpg);
-}
-
-#album-details-3 {
-    background-image: url(../images/ben-sturgell.jpg);
-}
-
-#album-details-4 {
-    background-image: url(../images/gnarly-parkers.jpeg);
-}
-
-#album-details-5 {
-    background-image: url(../images/adam-searan.jpg);
-}
 
 .song-list {}
 
@@ -88,6 +69,7 @@ audio {
 
 #header-image {
     overflow: hidden;
+     color: #ecf0f1;
 }
 
 #albums-and-details {
@@ -102,7 +84,7 @@ footer {
 
 
 .header-text {
-    color: #4d4d4d;
+   
 }
 
 
@@ -136,8 +118,9 @@ footer {
 }
 
 #contact {
-    background-color: #3498db;
-    color: #bdc3c7;
+    background-color: #3e8b60;
+    background-image: url(../images/cubes.png);
+    color: #ecf0f1;
 }
 
 #testimonials {
@@ -281,10 +264,20 @@ h1, h2, h3 {
 
 #logo {
     height:36px;
-   margin-left: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
     outline: none;
 }
 
 #album-grid {
     margin-top: 10px;
+}
+
+#the-album-details-that-animate {
+    background-image: url(../images/cubeswhite.png);
+}
+
+.center-row {
+    float: none;
+    margin: auto;
 }
