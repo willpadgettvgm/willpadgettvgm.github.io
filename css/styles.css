@@ -32,10 +32,10 @@ body {
 }
 
 .hidden-album {
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
+   
    background-image: url(../images/cubeswhite.png);
-    background-blend-mode: screen;
+    
     color: #2c3e50;
     position: relative;
 }
