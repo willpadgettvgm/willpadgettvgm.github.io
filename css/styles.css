@@ -213,6 +213,8 @@ footer {
 
 #the-header-text {
     margin-left: 1000px;
+    font-size: 48px;
+    margin-bottom: 0px;
 }
 
 .ribbon {
@@ -263,7 +265,7 @@ h1, h2, h3 {
 }
 
 #logo {
-    height:36px;
+    height:48px;
     margin-left: 12px;
     margin-right: 12px;
     outline: none;
@@ -280,4 +282,9 @@ h1, h2, h3 {
 .center-row {
     float: none;
     margin: auto;
+}
+
+.footer {
+    background-color: #ecf0f1;
+    color: #2c3e50;
 }
