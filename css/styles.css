@@ -51,9 +51,7 @@ body {
     padding-bottom: 3%;
 }
 
-img:hover {
-    outline: groove #E2DFD9;
-}
+
 
 .album-details {
     display: none;
@@ -287,4 +285,8 @@ h1, h2, h3 {
 .footer {
     background-color: #ecf0f1;
     color: #2c3e50;
+}
+
+.album-img {
+      outline: none;
 }
